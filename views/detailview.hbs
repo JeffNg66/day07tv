@@ -1,0 +1,31 @@
+<div class="container">
+    <h2>Detail View</h2>
+
+    <table class="table">
+        <tr>
+            <td>Name</td>
+            <td>{{ tvshow.name }}</td>
+        </tr>
+        <tr>
+            <td>Rating</td>
+            <td>{{ tvshow.rating }}</td>
+        </tr>
+        <tr>
+            <td>Image</td>
+            <td><img src="{{ tvshow.image }}" alt=""></td>
+        </tr>
+        <tr>
+            <td>Summary</td>
+            <td>{{{ tvshow.summary }}}</td>
+        </tr>
+        <tr>
+            <td>Link</td>
+            <td><a href="{{ tvshow.official_site }}" target="_blank">Official Site</a></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button onclick="window.location.href='/'">Back</button></td>
+        </tr>
+    </table>
+</div>
+
